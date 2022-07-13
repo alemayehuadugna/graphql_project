@@ -1,0 +1,26 @@
+{
+  "name": "graphql_api",
+  "version": "1.0.0",
+  "description": "graphql project with express and sqlite database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startDev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Alemayehu Adugna",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "elasticsearch": "^16.7.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
+    "knex": "^0.95.15",
+    "sqlite3": "^5.0.8"
+  }, 
+  "devDependencies": {
+    "electron-rebuild": "^3.2.8",
+    "nodemon": "^2.0.2"
+  }
+}
